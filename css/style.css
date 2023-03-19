@@ -1,0 +1,24 @@
+.no p::first-line{
+	color:aqua;
+	font-variant:small-caps;
+}
+section{
+	width:700px;
+}
+::marker{
+	color:red;
+}
+::selection{
+	color:green;
+	background-color:white;
+}
+.nos p::first-letter{
+	color:pink;
+	font-size:30px;
+}
+.ang p::before{
+	content:url('https://em-content.zobj.net/thumbs/120/whatsapp/326/alien-monster_1f47e.png');
+}
+.tex span::after{
+	content:'~';
+}
